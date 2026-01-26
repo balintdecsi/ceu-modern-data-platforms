@@ -771,7 +771,7 @@ dbt test -s dim_listings_minimum_nights
 ```
 
 ### Unit Tests
-Add this to `models/mart/unit_tests.yml`:
+Add this to `models/mart/unit_tests.yml` (can be placed anywhere, it is just convenient to place tests next to models so it is visible easily in directory structure):
 ```yml
 unit_tests:
   - name: unittest_fullmoon_matcher
